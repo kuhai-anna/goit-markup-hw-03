@@ -1,0 +1,260 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--contacs-color: rgba(255, 255, 255, 0.6);
+	--header-logo-color: #000000;
+	--primary-background-color: #ffffff;
+	--secondary-background-color: #f5f4fa;
+	--accent-background-color: #2f303a;
+	--accent-button-color: #188ce8;
+	--portfolio-border-color: #eeeeee;
+	--portfolio-line-color: #ececec;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+
+	color: var(--primary-text-color);
+
+	background-color: var(--primary-background-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+/* header */
+/* logo */
+
+.header-logo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+
+	color: var(--header-logo-color);
+}
+
+.logo-accent {
+	color: var(--accent-color);
+}
+
+/* main navigation */
+.header-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	color: var(--title-text-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.current {
+	color: var(--accent-color);
+}
+
+/* contact list */
+
+.header-contacts {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	color: var(--primary-text-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+	color: var(--accent-color);
+}
+
+/* main */
+/* hero */
+.hero {
+	background-color: #2f303a;
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+
+.hero-btn {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.86;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	color: #ffffff;
+
+	background-color: var(--accent-color);
+	border-color: transparent;
+	border-radius: 4px;
+
+	cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--accent-button-color);
+}
+
+/* sections */
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.67;
+	text-align: center;
+
+	color: var(--title-text-color);
+}
+
+/* features */
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.features-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+
+	color: var(--title-text-color);
+}
+
+.features-text {
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+/* our team */
+
+.section-team {
+	background-color: var(--secondary-background-color);
+}
+
+.card-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+
+	color: var(--title-text-color);
+}
+
+.card-description {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+
+/* footer */
+
+.footer {
+	background-color: var(--accent-background-color);
+}
+
+.footer-logo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+
+	color: var(--primary-background-color);
+}
+
+.address-box {
+	font-style: normal;
+}
+
+.address {
+	font-size: 14px;
+	line-height: 1.71;
+
+	color: var(--primary-background-color);
+}
+
+.footer-contacts {
+	font-size: 14px;
+	line-height: 1.71;
+
+	color: var(--contacs-color);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+	color: var(--accent-color);
+}
+
+/* portfolio */
+/* main */
+
+.filter-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+
+	color: var(--title-text-color);
+
+	background-color: var(--secondary-background-color);
+	border-radius: 4px;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	color: var(--primary-background-color);
+
+	background-color: var(--accent-color);
+}
+
+.project-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+
+	color: var(--title-text-color);
+}
+
+.project-description {
+	font-size: 16px;
+	line-height: 1.88;
+
+	color: var(--primary-text-color);
+}
